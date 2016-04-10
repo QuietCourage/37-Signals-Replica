@@ -1,0 +1,159 @@
+/*//Whole site settings*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: 'Crimson Text', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #369;
+}
+
+/*//Navigation Bar*/
+
+nav {
+	min-width: 100%;
+	height: 48px;
+	font-family: sans-serif;
+}
+
+nav > ul {
+	float: right;
+	margin: 12px 18px;
+	padding: 10px 30px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5px;
+	font-size: 12px;
+	color: #369;
+}
+
+nav > ul > li > a {
+	color: #369;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #18AFE0;
+}
+
+.signin {
+	color: #18AFE0;
+}
+
+.signin:hover {
+	color: #369;
+}
+
+/*Big Header*/
+
+header,
+section {
+	margin: 30px auto;
+	width: 825px;
+	display: block;
+}
+
+header {
+	clear: both;
+	height: 163px;
+	padding: 6px 0;
+	text-align: center;
+}
+
+header > h1 {
+	font-size: 58px;
+	line-height: 1em;
+	margin: 10px 0;
+	color: #232323;
+}
+
+header h5 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 10px 0;
+	color: #222;
+}
+
+
+/*Products products products*/
+
+.products {
+	text-align: center;
+	height: 288px;
+	padding-bottom: 30px;
+}
+
+.products a {
+	position: relative;
+	top: 40px;
+	left: 75px;
+	width: 160px;
+	margin: 15px 20px 5px;
+	float: left;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #EFEFEF;
+	padding: 20px 10px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.products h3 {
+	font-size: 21px;
+	color: #369;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+.products h3 span {
+	text-decoration: underline;
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+
+.products h4 {
+	margin: 10px 0;
+	font-size: 14px;
+	color: #C00;
+}
+
+.products p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 5px 0;
+}
+
+/*"HR" three stars at bottom*/
+
+hr {
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	height: 12px;
+}
+
+
+
+
+
+
+
+
+
+}
